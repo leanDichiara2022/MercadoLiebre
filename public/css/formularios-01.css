@@ -1,0 +1,61 @@
+.form-container {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .cajas {
+    width: 60vw;
+    font-size: 10px;
+    padding: 15px;
+    border: none;
+    margin: auto;
+    margin-bottom: 10px;
+    
+  }
+
+  p {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0.5em;
+    color: gray;
+    margin-left: 20px
+  }
+  
+  label {
+    padding: 10px;
+  
+  }
+  
+  form button {
+    width: 60vw;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 450ms;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0022AA;
+  }
+   .reset {
+    background-color:darkred;
+   }
+  
+  @media (min-width: 450px) {
+   
+    .cajas {
+      width: 40vw;
+    }
+    form button {
+      width: 40vw;
+    }
+  
+    .user-profile-container {
+      text-align: justify;
+      margin-left: 30%;
+      margin-bottom: 20px;
+    }
+  }
